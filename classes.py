@@ -11,3 +11,5 @@ class Flight():
             return False
         self.passengers.append(name)
         return True
+
+pirate_air = Flight(40)
