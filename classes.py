@@ -7,8 +7,7 @@ class Flight():
         return self.capacity - len(self.passengers)
 
     def addpassenger(self, name):
-        self.passengers.append(name)
         if seat_availability() == 0:
             return False
-        else: 
-            return True
+        self.passengers.append(name)
+        return True
