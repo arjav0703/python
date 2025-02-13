@@ -3,7 +3,6 @@ class Flight():
         self.capacity = capacity
         self.passengers = []
     
-    
     def addpassenger(self, name):
         if not self.seat_availability():
             return False
@@ -20,4 +19,4 @@ for callsign in ppl:
     if pirate_air.addpassenger(callsign):
         print(f"Added {callsign} to the flight")
     else:
-        print(f"No available seats for {callsign}") 
+        print(f"No available seats for {callsign}")
