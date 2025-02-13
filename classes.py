@@ -13,3 +13,5 @@ class Flight():
         return True
 
 pirate_air = Flight(40)
+
+ppl = ['Arjav', 'Anay', 'Satat', 'Daksh', 'Vaibhav', 'Apoorv']
