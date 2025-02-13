@@ -6,7 +6,7 @@
 #no i am poppy""")
 
 ## 2nd way < \n shifts it to next line
-#print("i am harry. \n" + "no i am hagrid \n" + "no i am poppy")
+print("i am harry. \n" + "no i am hagrid \n" + "no i am poppy")
 
 
 # how to multiply strings
